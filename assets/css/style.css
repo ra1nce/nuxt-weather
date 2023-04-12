@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Ubuntu Mono', monospace;
+
+    color: #FFFFFF;
+}
+
+body {
+    position: relative;
+
+    width: 100vw;
+    height: 100vh;
+
+    background: radial-gradient(101.8% 73.1% at 90.89% 95.65%, #45278B 0%, #2E335A 100%);
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cities {
+    margin-top: 40px;
+}
+
+.city {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    width: 400px;
+    height: 52px;
+
+    margin-top: 30px;
+
+    background: rgba(72, 49, 157, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 5px 4px 10px rgba(0, 0, 0, 0.25), inset 1px 1px 0px rgba(255, 255, 255, 0.25);
+    border-radius: 30px;
+
+    font-weight: 700;
+}
+
+.back-btn {
+    padding: 16px 64px;
+    margin-top: 30px;
+
+    text-align: center;
+
+    background: rgba(72, 49, 157, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 5px 4px 10px rgba(0, 0, 0, 0.25), inset 1px 1px 0px rgba(255, 255, 255, 0.25);
+    border-radius: 30px;
+
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.weatcher-block {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+}
+
+.item {
+    width: 342px;
+    height: 184px;
+
+    margin-bottom: 40px;
+    margin-right: 40px;
+
+    background-image: url(assets/img/bg.png);
+    background-repeat: no-repeat;
+}
+
+.item:nth-of-type(3n) {
+    margin-right: 0;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.collumn {
+    display: flex;
+    flex-direction: column;
+}
+
+.temp {
+    font-size: 64px;
+    margin-left: 15px;
+}
+
+.jc-space-b {
+    justify-content: space-between;
+}
+
+.center-v {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.temp-other {
+    font-size: 13px;
+    color: rgba(235, 235, 245, 0.6);
+    margin-left: 15px;
+}
+
+.city-item {
+    font-size: 17px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.weather-ico {
+    width: 120px;
+}
+
+.items {
+    width: 1106px;
+    display: flex;
+    flex-wrap: wrap;
+}
